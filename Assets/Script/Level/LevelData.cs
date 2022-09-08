@@ -15,6 +15,14 @@ namespace ujikom.LevelData
         [SerializeField]
         private Image CompleteIMG;
 
+        Database.Database Instance;
+        LevelDataModel _levelData;
+
+        private void Awake()
+        {
+            Instance = GameObject.Find("GlobalLayer").GetComponent<Database.Database>();
+        }
+
         public void LoadLevelList()
         {
 

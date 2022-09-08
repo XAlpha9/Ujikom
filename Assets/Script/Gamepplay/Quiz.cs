@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 namespace ujikom.Quiz
 {
     public class Quiz : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
+        [SerializeField]
+        private TextMeshProUGUI QuestionText;
+        [SerializeField]
+        private Image HintImage;
+        [SerializeField]
+        private Button[] answerButtons;
 
-        }
-
-        // Update is called once per frame
-        void Update()
+        public void InitQuiz(Database.LevelStruct level)
         {
 
         }

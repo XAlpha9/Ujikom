@@ -289,7 +289,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1238053717}
         m_TargetAssemblyTypeName: ujikom.Scene.LevelScene, Assembly-CSharp
         m_MethodName: SelectLevel
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1061,7 +1061,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1238053717}
         m_TargetAssemblyTypeName: ujikom.Scene.LevelScene, Assembly-CSharp
         m_MethodName: SelectLevel
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1754,7 +1754,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1238053717}
         m_TargetAssemblyTypeName: ujikom.Scene.LevelScene, Assembly-CSharp
         m_MethodName: SelectLevel
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2684,7 +2684,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1238053717}
         m_TargetAssemblyTypeName: ujikom.Scene.LevelScene, Assembly-CSharp
         m_MethodName: SelectLevel
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3181,7 +3181,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1238053717}
         m_TargetAssemblyTypeName: ujikom.Scene.LevelScene, Assembly-CSharp
         m_MethodName: SelectLevel
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

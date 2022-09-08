@@ -19,6 +19,14 @@ namespace ujikom.PackData
         [SerializeField]
         private Image CompleteImage;
 
+        private Database.Database Instance;
+        PackDataModel _packData;
+
+        private void Awake()
+        {
+            Instance = GameObject.Find("GlobalLayer").GetComponent<Database.Database>();
+        }
+
         public void LoadPackList()
         {
 

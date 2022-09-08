@@ -10,6 +10,15 @@ namespace ujikom.GameFlow
         {
 
         }
+
+        public void AnswerQuestion(int Answer)
+        {
+
+        }
+        public void Timeout()
+        {
+
+        }
     }
 }
 

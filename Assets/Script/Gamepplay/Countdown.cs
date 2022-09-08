@@ -14,13 +14,23 @@ namespace ujikom.CountDown
 
         private void Start()
         {
-            StartCountdown();    
+            StartCountdown();
+            Debug.Log(_countdown.Remaining);
         }
 
         private void Update()
         {
-            if (IsStarted == true) { _countdown.Remaining -= ((long)Time.deltaTime); }
-            CountdownBar.value = _countdown.Remaining;
+            if (IsStarted == true) 
+            { 
+                _countdown.Remaining -= Time.deltaTime;
+                CountdownBar.value = _countdown.Remaining;
+                Debug.Log(_countdown.Remaining);
+            }
+            else if (_countdown.Remaining <= 0)
+            {
+                StopCountdown();
+            }
+            
         }
 
         public void StartCountdown()
@@ -41,9 +51,9 @@ namespace ujikom.CountDown
 
     public struct CountdownModel
     {
-        public long Remaining;
+        public float Remaining;
 
-        public CountdownModel(long remaining)
+        public CountdownModel(float remaining)
         {
             Remaining = remaining;
         }

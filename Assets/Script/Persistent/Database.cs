@@ -11,7 +11,8 @@ namespace ujikom.Database
         public PackList.ListPack _ListPackID;
 
         LevelStruct _Level;
-        private string[] _packLists;
+        [HideInInspector]
+        public string[] _packLists, _levelLists;
 
         private void Awake()
         {
@@ -35,7 +36,13 @@ namespace ujikom.Database
         }
         public string[] GetLevelList(string packID)
         {
-            return null;
+            _levelLists = new string[5];
+            for (int i = 0; i < 5; i++)
+            {
+                _levelLists[i] = packID + "-" + (i + 1);
+                Debug.Log("added " + _levelLists);
+            }
+            return _levelLists;
         }
         public LevelStruct GetLevelData(string levelID)
         {
