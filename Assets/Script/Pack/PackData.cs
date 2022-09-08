@@ -8,10 +8,15 @@ namespace ujikom.PackData
 {
     public class PackData : MonoBehaviour
     {
+        [SerializeField]
         private TextMeshProUGUI PackNameLabel;
+        [SerializeField]
         private TextMeshProUGUI UnlockCostLabel;
+        [SerializeField]
         private Button SelectButton;
+        [SerializeField]
         private Button UnlockButton;
+        [SerializeField]
         private Image CompleteImage;
 
         public void LoadPackList()

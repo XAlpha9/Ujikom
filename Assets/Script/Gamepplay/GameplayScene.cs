@@ -7,10 +7,18 @@ namespace ujikom.Scene
 {
     public class GameplayScene : MonoBehaviour
     {
-
-        public void GoBack()
+        public void GoToLevelScene()
         {
             SceneManager.LoadScene("Level");
+        }
+        public void GoToPackScene()
+        {
+            SceneManager.LoadScene("Pack");
+        }
+
+        public void QuitGame()
+        {
+            Application.Quit();
         }
     }
 }

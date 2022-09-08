@@ -7,13 +7,13 @@ namespace ujikom.Scene
 {
     public class LevelScene : MonoBehaviour
     {
-        public void SelectLevel()
+        public void SelectLevel(string levelID)
         {
             SceneManager.LoadScene("Gameplay");
         }
         public void GoBack()
         {
-            SceneManager.LoadScene("Home");
+            SceneManager.LoadScene("Pack");
         }
     }
 }
